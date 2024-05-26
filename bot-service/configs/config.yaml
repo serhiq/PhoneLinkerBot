@@ -1,0 +1,17 @@
+project:
+  name: Simple bot
+  serviceName: simple-bot
+
+telegram:
+  token: "your-telegram-token"
+
+database:
+  host: mysql
+  port: 3306
+  database_name: sbot_db
+  username: user_app
+  password: password
+
+server:
+  port: 8080
+  token: "your-server-auth-token"
